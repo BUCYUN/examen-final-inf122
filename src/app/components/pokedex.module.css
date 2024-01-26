@@ -3,7 +3,7 @@
     flex-direction: column;
     
 }
-.section1 h2{
+.section1 h1{
     color: var(--azul);
     margin-top: 2rem;
     text-transform: capitalize;
@@ -11,6 +11,7 @@
 .section1 p{
     color: var(--gris);
     text-align: end;
+    font-weight: 700;
 }
 
 .id-pokemon{
@@ -18,9 +19,9 @@
     font-size: 700;
 }
 
-
-.about h2{
+.about h3{
     text-decoration-line: underline;
+    
 }
 
 .abouts{

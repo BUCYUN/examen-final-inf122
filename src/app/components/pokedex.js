@@ -50,9 +50,9 @@ export default function pokedex () {
                 <h3 className={style.title}>
                     My Pokemon
                 </h3>
-                <h2 className={style.pokemon}>
+                <h1 className={style.pokemon}>
                     {name}
-                </h2>
+                </h1>
                 <p className={style.id}>
                     #{id}
                 </p>
@@ -60,7 +60,8 @@ export default function pokedex () {
             </div>
 
             <div className={style.about}>
-                <h2>About</h2>
+                <h3>About</h3>
+                
                 <div className={style.abouts}>
                     <p>Type</p><p>{type}</p>
                     <p>Height</p><p>{height} m</p>
@@ -70,7 +71,7 @@ export default function pokedex () {
             </div>
 
             <div className={style.stat}>
-                <h2>Stats</h2>
+                <h3>Stats</h3>
                 <div className={style.stats}>
                     <p>HP</p><p>{hp}</p>
                     <p>Attack</p><p>{attack}</p>

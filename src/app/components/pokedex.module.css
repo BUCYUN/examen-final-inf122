@@ -1,0 +1,52 @@
+.section1{
+    display: flex;
+    flex-direction: column;
+    
+}
+.section1 h2{
+    color: var(--azul);
+    margin-top: 2rem;
+    text-transform: capitalize;
+}
+.section1 p{
+    color: var(--gris);
+    text-align: end;
+}
+
+.id-pokemon{
+    color: var(--gris);
+    font-size: 700;
+}
+
+
+.about h2{
+    text-decoration-line: underline;
+}
+
+.abouts{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+
+.abouts p{
+    margin-top: 2rem;
+    color: var(--gris);
+}
+
+.stat {
+    margin-top: 2rem;
+}
+
+
+.stats p{
+    margin-top: 2rem;
+    color: var(--gris);
+}
+
+.stats {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+
+
+

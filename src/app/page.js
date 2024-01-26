@@ -5,7 +5,8 @@ import Pokemon from "./components/pokedex"
 export default function Home() {
   return (
     <div className={styles.main}>
-        <Pokemon/>
+        <Pokemon
+        />
     </div>
   );
 }

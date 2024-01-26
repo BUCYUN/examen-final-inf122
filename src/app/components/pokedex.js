@@ -56,7 +56,7 @@ export default function pokedex () {
                 <p className={style.id}>
                     #{id}
                 </p>
-                <Image layout='responsive' priority="true" height={200} width={200} src={pokemon}/>
+                <Image layout='responsive' priority="true" height={500} width={500} src={pokemon}/>
             </div>
 
             <div className={style.about}>
